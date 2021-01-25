@@ -1,13 +1,17 @@
+import React from 'react'
 import './App.css';
+
+import {Button} from '@material-ui/core'
+
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Now we are ready for you to build on top
-        </p>
-      </header>
+      <Header></Header>
+      {/* <Button variant="contained" color="primary">
+        Hello World
+      </Button> */}
     </div>
   );
 }
